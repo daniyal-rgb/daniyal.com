@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>conyact us</title>
+    <link rel="stylesheet" href="college style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html" class="logo"><img src="index/remove.png"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa-solid fa-bars" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="our services.html">SERVICES</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="About.html">ABOUT</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+        <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <h1>Contact Us</h1>
+    </section>
+
+ <!-------contact us page---->
+ <section class="location">
+
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d924237.7103560015!2d66.49592279551524!3d25
+    .192983571288433!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33e06651d4bbf%3A0x9cf92f44555a0c23!2sK
+    arachi%2C%20Karachi%20City%2C%20Sindh%2C%20Pakistan!5e0!3m2!1sen!2s!4v1735814044900!5m2!1sen!2s" width="600" 
+    height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    
+ </section>
+ <section class="contact-us">
+    <div class="row">
+        <div class="contact-col">
+            <div>
+                <i class="fa-solid fa-house"></i>
+            <span>
+                <h5>Malir cantt, Karachi</h5>
+                <p>Karaci Near Railway booking office</p>
+            </span>
+       </div>
+        <div>
+            <i class="fa-solid fa-phone"></i>
+        
+        <span>
+            <h5>+92 3482318551</h5>
+            <p>Monday to Saturday, 10am to 12pm</p>
+        </span>
+        </div>
+        <div>
+            <i class="fa-solid fa-envelope"></i>
+        <span>
+            <h5>tanveerahmedsid2@gmail.com</h5>
+            <h5>t25536497@gmail.com</h5>
+            <p>Email us your query</p>
+        </span>
+        </div>
+        </div>
+        <div class="contact-col">
+            <form action="form-handler.php" method="post">
+                <input type="text" name="name" placeholder="Enter your name" required>
+                <input type="email" name="email" placeholder="Enter email adress" required>
+                <input type="text" name="subject" placeholder="Enter your service" required>
+                <textarea rows="8" name="message" placeholder="message" required></textarea>
+                <button type="submit" class="hero-btn red-btn">Send message</button>
+            </form>
+        </div>
+    </div>
+ </section>
+
+
+
+
+
+
+
+
+
+
+    <!-----footer----->
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>At Hassan & Hussain Construction, we specialize in a variety of complex and essential civil engineering works.</p>
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-whatsapp"></i>
+        <i class="fa-brands fa-square-twitter"></i>
+        <p>&copy 2025 Hassan& Hussain Constructions All rights Reserved</p>
+    </section>
+    
+    <!-- -------java script for toogle menu-------->
+
+<script>
+    var links = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right =" 0%"
+    }
+    function hideMenu(){
+        navLinks.style.right =" -200px"
+    }
+
+</script>
+</body>
+</html>

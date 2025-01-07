@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About page</title>
+    <link rel="stylesheet" href="college style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html" class="logo"><img src="index/remove.png"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="home.html">HOME</a></li>
+                <li><a href="our services.html">SERVICES</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="About.html">ABOUT</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+        <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <h1>About Us</h1>
+    </section>
+
+
+ <!-- ------About us content----- -->
+
+ <section class="about-us">
+    <div class="row">
+        <div class="about-col">
+            <h1>The Best Construction Company</h1>
+            <p>Hassan & Hussain Construction is a premier construction company committed to deliveringexcellence across the civil engineering spectrum.
+               Founded on principles of integrity, quality, and innovation,we specialize in building construction,infrastructure
+               development,and a wide array of civilengineering services.Our team of seasoned professionals bring stogether years of experience and expertise to
+                execute projects that not only meet but exceed client expectation.
+                 </p>
+                 <a href="index.html" class="hero-btn red-btn" >EXPLORE NOW</a>
+                 </div>
+                 
+                 <div class="about-col">
+                    <img src="index/constructions.jpg">
+                </div>
+        
+    </div>
+</section>
+
+    <!-----footer----->
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>At Hassan & Hussain Construction, we specialize in a variety of complex and essential civil engineering works.</p>
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-whatsapp"></i>
+        <i class="fa-brands fa-square-twitter"></i>
+        <p>&copy 2025 Hassan& Hussain Constructions All rights Reserved</p>
+    <!-- -------java script for toogle menu-------->
+
+<script>
+    var links = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right =" 0%"
+    }
+    function hideMenu(){
+        navLinks.style.right =" -200px"
+    }
+
+</script>
+    
+</body>
+</html>

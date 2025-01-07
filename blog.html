@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>blog</title>
+    <link rel="stylesheet" href="college style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html" class="logo"><img src="index/remove.png"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa-solid fa-bars" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="our services.html">SERVICES</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="About.html">ABOUT</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+        <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <h1>Our Construction Programs</h1>
+    </section>
+
+ <!-- -----blog-page-content----- -->
+<section class="blog-content">
+    <div class="row">
+        <div class="blog-left">
+            <img src="index/125.png" >
+            <h2>Our Construction Programs</h2>
+            <p> To build sustainable, innovative, and high-quality buildings and
+                infrastructure that enrich communities and contribute to the growth and
+                development of the region. We are committed to delivering excellence in
+                every project, ensuring client satisfaction, and fostering long-term
+                relationships</p>
+            <br>
+            <p>
+                Our Mission
+                To be recognized as a leading construction company that sets the
+                benchmark for quality, reliability, and innovation in the civil engineering
+                industry. We aim to shape the future of construction by adopting
+                advanced technologies and sustainable practices</p>
+            <br>
+            <p>
+                Our strategy is centered on continuous improvement, client- focused
+                solutions, and sustainable growth. We invest in the latest construction
+                technologies and maintain a highly skilled workforce to ensure that we
+                consistently deliver projects on time, within budget, and to the highest
+                standards. By fostering strong partnerships and emphasizing ethical
+                business practices, westrive to achieve long-term success and contribute
+                positively to the industry and society</p>
+            <br>
+           
+
+            <div class="comment-box">
+                <h3>Leave a Comment</h3>
+                <form class="comment-form">
+                    <input type="text" placeholder="Enter Name">
+                    <input type="email" placeholder="Enter email">
+                    <textarea rows="5" placeholder="Your comment"></textarea>
+                    <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+                </form>
+            </div>
+        </div>
+        <div class="blog-right">
+            <h3>Post Categories</h3>
+            <div>
+                <span>Project updates</span>
+                <span>21</span>
+            </div>
+            <div>
+                <span>Industry Insights</span>
+                <span>12</span>
+            </div>
+             <div>
+                <span>Design& Architecture</span>
+                <span>23</span>
+            </div>
+            <div>
+                <span>Safety& Regulations</span>
+                <span>41</span>
+            </div>
+            <div>
+                <span>Sustainabilty& Envoirment</span>
+                <span>25</span>
+            </div>
+            <div>
+                <span>Company News</span>
+                <span>56</span>
+            </div>
+            <div>
+                <span>Tips& Advice</span>
+                <span>67</span>
+            </div>
+        </div>
+
+       
+
+
+
+    </div>
+</section>
+
+    
+
+
+    <!-----footer----->
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>At Hassan & Hussain Construction, we specialize in a variety of complex and essential civil engineering works.</p>
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-whatsapp"></i>
+        <i class="fa-brands fa-square-twitter"></i>
+        <p>&copy 2025 Hassan& Hussain Constructions All rights Reserved</p>
+    </section>
+   <!-- -------java script for toogle menu-------->
+
+<script>
+    var links = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right =" 0%"
+    }
+    function hideMenu(){
+        navLinks.style.right =" -200px"
+    }
+
+</script> 
+    
+</body>
+</html>
